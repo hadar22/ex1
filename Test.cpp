@@ -123,6 +123,37 @@ TEST_CASE("Test replacement of lower-case and upper-case") {
     CHECK(find(text, "Happi") == string("Happi"));
     CHECK(find(text, "HAPPI") == string("Happi"));
     CHECK(find(text, "HaPpI") == string("Happi"));
+    
+      CHECK(find(text, "HAPPI") == string("Happi"));
+    CHECK(find(text, "HaPpI") == string("Happi"));
+    CHECK(find(text, "happi") == string("Happi"));
+    CHECK(find(text, "Happi") == string("Happi"));
+    CHECK(find(text, "HAPPI") == string("Happi"));
+    CHECK(find(text, "HaPpI") == string("Happi"));
+      CHECK(find(text, "HAPPI") == string("Happi"));
+    CHECK(find(text, "HaPpI") == string("Happi"));
+    CHECK(find(text, "happi") == string("Happi"));
+    CHECK(find(text, "Happi") == string("Happi"));
+    CHECK(find(text, "HAPPI") == string("Happi"));
+    CHECK(find(text, "HaPpI") == string("Happi"));
+      CHECK(find(text, "HAPPI") == string("Happi"));
+    CHECK(find(text, "HaPpI") == string("Happi"));
+    CHECK(find(text, "happi") == string("Happi"));
+    CHECK(find(text, "Happi") == string("Happi"));
+    CHECK(find(text, "HAPPI") == string("Happi"));
+    CHECK(find(text, "HaPpI") == string("Happi"));
+      CHECK(find(text, "HAPPI") == string("Happi"));
+    CHECK(find(text, "HaPpI") == string("Happi"));
+    CHECK(find(text, "happi") == string("Happi"));
+    CHECK(find(text, "Happi") == string("Happi"));
+    CHECK(find(text, "HAPPI") == string("Happi"));
+    CHECK(find(text, "HaPpI") == string("Happi"));
+      CHECK(find(text, "HAPPI") == string("Happi"));
+    CHECK(find(text, "HaPpI") == string("Happi"));
+    CHECK(find(text, "happi") == string("Happi"));
+    CHECK(find(text, "Happi") == string("Happi"));
+    CHECK(find(text, "HAPPI") == string("Happi"));
+    CHECK(find(text, "HaPpI") == string("Happi"));
 }
 
 TEST_CASE (""){

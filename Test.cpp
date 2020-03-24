@@ -77,7 +77,7 @@ TEST_CASE("") {
     CHECK(find(text, "smile") == string("zmile"));
     CHECK(find(text, "happened") == string("habbened"));
     CHECK(find(text, "HaFpeNeT") == string("habbened"));
-   
+} 
 
 TEST_CASE("") { 
     // the greatest gift to my eyesight is having my eyes set on you =7
